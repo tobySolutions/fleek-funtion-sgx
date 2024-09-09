@@ -1,0 +1,20 @@
+{
+  "name": "fleek-functions-using-wasm",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./src/main.ts",
+  "scripts": {
+    "compile": "cd wasm && npm run build && cd ..",
+    "build": "tsc && rollup -c"
+  },
+  "devDependencies": {
+    "@fleek-platform/cli": "^2.8.6",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@rollup/plugin-wasm": "^6.2.2",
+    "rollup": "^2.60.0",
+    "typescript": "^5.5.4"
+  },
+  "license": "MIT"
+}

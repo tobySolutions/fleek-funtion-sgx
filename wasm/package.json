@@ -1,0 +1,15 @@
+{
+  "name": "wasm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "asc index.ts -b raw -o dist/index.wasm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "assemblyscript": "^0.27.29"
+  }
+}
