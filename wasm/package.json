@@ -11,5 +11,8 @@
   "description": "",
   "devDependencies": {
     "assemblyscript": "^0.27.29"
+  },
+  "dependencies": {
+    "@fleek-platform/sdk": "^2.1.5"
   }
 }

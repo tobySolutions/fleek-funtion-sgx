@@ -1,0 +1,9 @@
+[package]
+name = "wasm"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sgxkit = { git = "https://github.com/fleek-network/lightning", rev = "21542ac506c6cb8c281d6428f25055d5a8ce8b7e" }
